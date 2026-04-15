@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^python3 -c \"\nimport pandas as pd\ndf = pd\\.read_csv\\('/home/arp/dev/ANAIprosperity/round_1/data/prices_round_1_day_-1\\.csv', sep=';'\\)\nprint\\(df\\.columns\\.tolist\\(\\)\\)\nprint\\(df\\['product'\\]\\.unique\\(\\)\\)\nprint\\(df\\.shape\\)\nprint\\(df\\.head\\(3\\)\\.to_string\\(\\)\\)\n\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
